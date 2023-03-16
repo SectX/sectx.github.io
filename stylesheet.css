@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+
+/* .headImg {
+  width: fit-content;
+} */
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  text-align: right;
+  border-radius: 10px;
+  size: 10px;
+  height: 135px;
+}
+
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 56px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 3px rgb(99, 91, 91);
+  border-style: dashed;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbarTitle {
+  float: left;
+  color: white;
+  font-size: 40px;
+  padding: 2.7px 80px;
+  background-image: url(https://media.discordapp.net/attachments/771639675731050516/1084867945466970183/image.png?width=803&height=406);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  transition: background-size 0.3s ease-in-out;
+}
+
+.navbarTitle:hover {
+  background-size: 200%;
+}
+
+.navbarTitleText {
+  background-color: black;
+  border-radius: 10px;
+  font-family: 'Bebas Neue';
+  transition: color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+.navbarTitle:hover .navbarTitleText {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+}
+
+/* .navbarTitleText:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+} */
